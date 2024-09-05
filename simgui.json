@@ -8,8 +8,8 @@
     "windows": {
       "/SmartDashboard/Field": {
         "Robot": {
-          "length": 0.1599999964237213,
-          "width": 0.14000000059604645
+          "length": 2.0,
+          "width": 1.0
         },
         "bottom": 1476,
         "height": 8.210550308227539,
@@ -50,7 +50,7 @@
             0.0,
             0.8500000238418579
           ],
-          "height": 332,
+          "height": -30,
           "series": [
             {
               "color": [
@@ -89,7 +89,7 @@
             0.0,
             0.8500000238418579
           ],
-          "height": 332,
+          "height": -46,
           "series": [
             {
               "color": [
@@ -128,7 +128,7 @@
             0.0,
             0.8500000238418579
           ],
-          "height": 332,
+          "height": -30,
           "series": [
             {
               "color": [
@@ -150,7 +150,10 @@
             }
           ]
         }
-      ]
+      ],
+      "window": {
+        "visible": false
+      }
     }
   }
 }

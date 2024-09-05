@@ -65,10 +65,10 @@ public final class Constants {
         // tuned constants (use https://github.com/bb-frc-workshops/romi-examples/tree/main/romi-characterization-sysid)
         public static final double kTrackWidth = 0.155 / scaleDownMultiplier; 
         public static final PIDConstants kWheelPIDLeft = new PIDConstants(0/*2.278 */, 0); 
-        public static final SimpleMotorFeedforward driveFFLeft = new SimpleMotorFeedforward(1.6542, 3.8371, 0.99265); 
+        public static final SimpleMotorFeedforward driveFFLeft = new SimpleMotorFeedforward(2.2204, 4.9004, 1.1947); 
 
         public static final PIDConstants kWheelPIDRight = new PIDConstants(0/*2.278 */, 0); 
-        public static final SimpleMotorFeedforward driveFFRight = new SimpleMotorFeedforward(1.6957, 4.0648, 0.89423); 
+        public static final SimpleMotorFeedforward driveFFRight = new SimpleMotorFeedforward(1.925286, 5.774, 1.676); 
 
         public static final DifferentialDriveKinematics kinematics = new DifferentialDriveKinematics(kTrackWidth); 
     }
